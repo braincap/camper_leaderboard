@@ -1,3 +1,46 @@
+th {
+  background: rgba(150,150,150,0.3);
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+td {
+  padding: 5px 10px 5px 10px;
+  vertical-align: middle;
+}
+
+.userPic {
+  border-radius: 10%;
+  width: 2em;
+  height: 2em;
+  margin-right: 10px;
+  border: 1px black solid;
+  display: inline-block;
+}
+
+table {
+  border-collapse: collapse;
+  width: 75%;
+}
+
+td>div {
+  text-align: left;
+}
+
+.tableDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.username {
+  text-align: left;
+  display: inline;
+}
+
+.dataTable {
+  margin-top: 10px;
+}
+
 .App {
   text-align: center;
 }
